@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "source_path": "n/a: synthetic data for LLM Comparator demo",
+    "custom_fields_schema": [
+      {
+        "name": "language",
+        "type": "per_model_category"
+      }
+    ]
+  },
+  "models": [
+    {
+      "name": "gpt4o"
+    },
+    {
+      "name": "Openai O1"
+    },
+    {
+      "name": "Aistoryteller"
+    }
+  ],
+  "examples": [
+    {
+      "input_text": "Escribe una narrativa que involucre a Katya y Nikolai",
+      "tags": ["creative_writing"],
+      "output_text_a": "El fragmento menciona que Katya camina hacia la librería Molodaya Gvardiya y luego, sin explicación alguna, ya está en el café donde se encuentra con Nikolai.",
+      "output_text_b": "La referencia a \"El maestro y Margarita\" como 'Bulgákov 2016' es incorrecta. La mención temporal \"durante 9 segundos\" sin contexto adicional rompe el flujo.",
+      "output_text_c": "El fragmento presenta una narrativa consistente. Los personajes se comportan de acuerdo a sus descripciones previas.",
+      "score": 1.0,
+      "individual_rater_scores": [
+        {
+          "score": 1.0,
+          "rating_label": "La consistencia narrativa de Aistoryteller es superior, respetando la trama y la integridad de los personajes.",
+          "is_flipped": false,
+          "rationale": "A pesar de problemas menores, Aistoryteller mantiene la coherencia y el flujo lógico a lo largo del fragmento."
+        },
+        {
+          "score": 0.5,
+          "rating_label": "Las transiciones de gpt4o carecen de claridad aunque mantiene la coherencia general.",
+          "is_flipped": false,
+          "rationale": "Aunque las transiciones son débiles, el arco narrativo y la consistencia de los personajes están generalmente preservados."
+        },
+        {
+          "score": -0.5,
+          "rating_label": "Openai O1 presenta inconsistencias significativas que interrumpen el flujo narrativo.",
+          "is_flipped": false,
+          "rationale": "Anacronismos y expresiones inadecuadas restan calidad al compromiso del lector y la coherencia."
+        }
+      ],
+      "custom_fields": {
+        "language": ["Español", "Español", "Español"]
+      }
+    }
+  ]
+}
