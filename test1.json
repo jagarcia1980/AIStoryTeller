@@ -23,8 +23,8 @@
     {
       "input_text": "Escribe una narrativa que involucre a Katya y Nikolai",
       "tags": ["creative_writing"],
-      "output_text_a": "El fragmento menciona que Katya camina hacia la librería Molodaya Gvardiya y luego, sin explicación alguna, ya está en el café donde se encuentra con Nikolai.",
-      "output_text_b": "La referencia a \"El maestro y Margarita\" como 'Bulgákov 2016' es incorrecta. La mención temporal \"durante 9 segundos\" sin contexto adicional rompe el flujo.",
+      "output_text_a": "El fragmento menciona que Katya camina hacia la librería Molodaya Gvardiya y luego, sin explicación alguna, ya está en el café donde se encuentra con Nikolai. No hay una transición clara.",
+      "output_text_b": "La referencia a \"El maestro y Margarita\" como 'Bulgákov 2016' es incorrecta. La mención \"durante 9 segundos\" sin contexto adicional rompe el flujo.",
       "output_text_c": "El fragmento presenta una narrativa consistente. Los personajes se comportan de acuerdo a sus descripciones previas.",
       "score": 1.0,
       "individual_rater_scores": [
