@@ -10,7 +10,7 @@
   },
   "models": [
     {
-      "name": "gpt4o"
+      "name": "Openai O1"
     },
     {
       "name": "Aistoryteller"
@@ -20,15 +20,15 @@
     {
       "input_text": "Escribe una narrativa que involucre a Katya y Nikolai",
       "tags": ["creative_writing"],
-      "output_text_a": "El fragmento menciona que Katya camina hacia la librería Molodaya Gvardiya y luego, sin explicación alguna, ya está en el café donde se encuentra con Nikolai. No hay una transición clara.",
+      "output_text_a": "La referencia a \"El maestro y Margarita\" como 'Bulgákov 2016' es incorrecta. La mención \"durante 9 segundos\" sin contexto adicional rompe el flujo.",
       "output_text_b": "El fragmento presenta una narrativa consistente. Los personajes se comportan de acuerdo a sus descripciones previas.",
-      "score": 0.5,
+      "score": 1.0,
       "individual_rater_scores": [
         {
-          "score": 0.5,
-          "rating_label": "El modelo Aistoryteller mantiene mejor la consistencia narrativa y la integridad de los personajes.",
+          "score": 1.0,
+          "rating_label": "Aistoryteller supera a Openai O1 al mantener una mejor coherencia y fluidez en la narrativa.",
           "is_flipped": false,
-          "rationale": "Aistoryteller maneja adecuadamente el flujo lógico y la coherencia, mientras que gpt4o tiene problemas de transición."
+          "rationale": "Anacronismos y expresiones ilógicas en Openai O1 afectan la comprensión, mientras que Aistoryteller preserva la coherencia."
         }
       ],
       "custom_fields": {
